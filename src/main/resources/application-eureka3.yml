@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka2:8762/eureka/,http://eureka3:8763/eureka/
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
   #    register-with-eureka: false
   server:
     enable-self-preservation: false
@@ -9,4 +9,4 @@ spring:
   application:
     name: eureka
 server:
-  port: 8761
+  port: 8763
